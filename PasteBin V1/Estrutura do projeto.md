@@ -28,7 +28,7 @@ Paster é um sistema de pastebin minimalista e seguro para compartilhar notas an
 
 1️⃣ Clone este repositório:
 ```bash
-git clone https://github.com/seu-usuario/paster-so.git
+git clone https://github.com/HumbertoFRodrigues/MundoTutors/tree/main/PasteBin%20V1.git
 ```
 
 2️⃣ Acesse a pasta do projeto:
