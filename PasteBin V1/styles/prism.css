@@ -1,0 +1,94 @@
+/* Prism.js - Estilos para destaque de código */
+code[class*="language-"],
+pre[class*="language-"] {
+    color: #f8f8f2;
+    background: #272822;
+    text-shadow: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 14px;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    direction: ltr;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Tokens para cores diferentes */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: #75715e;
+}
+
+.token.punctuation {
+    color: #f8f8f2;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+    color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+    color: #f8f8f2;
+}
+
+.token.atrule,
+.token.keyword {
+    color: #66d9ef;
+}
+
+.token.function {
+    color: #e6db74;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+    color: #fd971f;
+}
+
+/* Adicionando efeito de destaque */
+pre[class*="language-"] {
+    position: relative;
+    overflow: auto;
+    margin: 1em 0;
+    padding: 1em;
+    background: #272822;
+    border-radius: 5px;
+}
+
+pre[class*="language-"]::-webkit-scrollbar {
+    width: 8px;
+}
+
+pre[class*="language-"]::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 5px;
+}

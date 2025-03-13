@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /past/
+
+# Definir página inicial como views/index.php
+DirectoryIndex views/index.php

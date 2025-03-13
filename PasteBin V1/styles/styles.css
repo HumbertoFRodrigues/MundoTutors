@@ -1,0 +1,141 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos gerais */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #007bff;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Lista de notas */
+.paste-list {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.paste-item {
+    padding: 10px;
+    background: #f9f9f9;
+    border-left: 5px solid #007bff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.paste-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.paste-item a:hover {
+    text-decoration: underline;
+}
+
+/* Destaque de código (similar ao VS Code) */
+pre {
+    background: #2d2d2d;
+    color: #f8f8f2;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+/* Links destacados */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estatísticas */
+.stats {
+    margin-top: 20px;
+    padding: 15px;
+    background: #fff3cd;
+    border-left: 5px solid #ffc107;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Anúncios */
+.ad-banner {
+    width: 100%;
+    height: 90px;
+    background: #ddd;
+    text-align: center;
+    line-height: 90px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
